@@ -6,22 +6,22 @@ import DarkMode from "./DarkMode";
 const NavLinks = [
   {
     id: 1,
-    name: "Home",
+    name: "Inicio",
     link: "#",
   },
   {
     id: 2,
-    name: "Products",
+    name: "Productos",
     link: "#",
   },
   {
     id: 3,
-    name: "Pricing",
+    name: "Precios",
     link: "#",
   },
   {
     id: 4,
-    name: "Contact",
+    name: "Contacto",
     link: "#contact",
   },
 ];
@@ -42,8 +42,8 @@ const Navbar = () => {
           {/* Logo section */}
           <div className="flex items-center gap-3">
             <img src={Logo} alt="Logo" className="h-16" />
-            <p className="text-3xl">
-              Keku <span className="font-bold"> Enterprise</span>
+            <p translate="no" className="text-3xl font-bold">
+              Keku <span className="font-normal"> Enterprise</span>
             </p>
           </div>
 

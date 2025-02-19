@@ -1,5 +1,5 @@
 import React from "react";
-import HeroPng from "../../assets/hero.png";
+import HeroPng from "../../assets/image2.webp";
 import { BiPlayCircle } from "react-icons/bi";
 
 const Hero = ({ togglePlay }) => {
@@ -17,9 +17,8 @@ const Hero = ({ togglePlay }) => {
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="300">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
-                molestias quia exercitationem ex inventore labore beatae cumque
-                et quaerat voluptas?
+              Nos especializamos en convertir tus ideas en soluciones digitales únicas. Ya sea que necesites desarrollar una aplicación personalizada o crear una página web atractiva y funcional.
+              
               </p>
               <div className="flex gap-6">
                 <button
@@ -47,7 +46,7 @@ const Hero = ({ togglePlay }) => {
               data-aos-offset="0"
               className="order-1 sm:order-2"
             >
-              <img src={HeroPng} alt="" className="" />
+              <img src={HeroPng} alt="" className=" md:h-full md:w-10/12 rounded-3xl" />
             </div>
           </div>
 
